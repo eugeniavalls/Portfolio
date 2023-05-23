@@ -1,0 +1,28 @@
+.decoration-name {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.25rem;
+  color: var(--color-primary);
+  //   background-color: blue;
+  position: relative;
+  left: -28px;
+}
+
+.decoration-symbols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 27px;
+  gap: 0.5rem;
+
+  &__image {
+    background-image: url(../assets/images/phone/ipad-movil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__circles {
+    grid-column: 1/3;
+  }
+}

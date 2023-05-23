@@ -1,1 +1,25 @@
 /* ESTILOS DEL FOOTER */
+
+.footer {
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 27px;
+
+  &__subtitle {
+    font-size: 0.9375rem;
+    color: var(--white);
+  }
+
+  &__contact {
+    font-family: var(--font-family-montserrat);
+    font-size: 0.4375rem;
+    text-align: right;
+    color: var(--white);
+
+    & p {
+      margin: 0.2rem;
+    }
+  }
+}
