@@ -1,0 +1,13 @@
+.skills {
+  padding: 0 27px;
+
+  &__icons {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 44px);
+  }
+
+  &__icon {
+    text-align: center;
+  }
+}

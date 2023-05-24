@@ -1,1 +1,10 @@
+.text {
+  font-family: var(--font-family-montserrat);
+  font-size: 0.5625rem;
+  font-weight: var(--regular-montserrat);
+  color: var(--color-text);
 
+  &--medium {
+    font-weight: var(--medium-montserrat);
+  }
+}

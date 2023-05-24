@@ -6,6 +6,22 @@
   //   background-color: blue;
   position: relative;
   left: -28px;
+
+  &--small {
+    font-size: 1.125rem;
+  }
+
+  &__item {
+    font-size: 1.5rem;
+  }
+
+  &--works {
+    left: 8px;
+  }
+
+  &--website {
+    left: 0;
+  }
 }
 
 .decoration-symbols {

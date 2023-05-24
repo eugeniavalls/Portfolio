@@ -2,4 +2,8 @@
   display: flex;
   justify-content: space-between;
   padding: 13px 62px 0 27px;
+
+  &--about {
+    padding: 13px 27px 0 27px;
+  }
 }

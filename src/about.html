@@ -14,26 +14,31 @@
     <title>e.valls</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header header--about">
       <nav>
         <ul class="menu">
           <li class="menu__item">
-            <a class="menu__link" href="">About</a>
+            <a class="menu__link menu__link--logo" href="/">e.</a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="">Work</a>
+            <a class="menu__link" href="about.html">About</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="works.html">Works</a>
           </li>
         </ul>
       </nav>
       <div class="decoration-name decoration-name--small">
-        <span>eugenia valls</span>
+        <span class="decoration-name__item">eugenia valls</span>
         <span>front-end</span>
         <span>ux/ui</span>
         <span>graphic designer</span>
       </div>
+    </header>
 
-      <div class="">
-        <picture>
+    <main class="main main--about">
+      <div class="first-section">
+        <picture class="first-section__picture">
           <source
             media="(min-width: 1040px)"
             srcset="./assets/images/phone/yo-movil.jpg"
@@ -42,10 +47,14 @@
             media="(min-width:720px)"
             srcset="./assets/images/tablet/yo-tablet.jpg"
           />
-          <img src="./assets/images/phone/yo-movil.jpg" alt="yo" />
+          <img
+            class="first-section__image"
+            src="./assets/images/phone/yo-movil.jpg"
+            alt="yo"
+          />
         </picture>
 
-        <picture>
+        <picture class="first-section__picture">
           <source
             media="(min-width: 1040px)"
             srcset="./assets/images/desktop/circulos-about-desktop.svg"
@@ -55,14 +64,228 @@
             srcset="./assets/images/tablet/circulos-about-tablet.svg"
           />
           <img
+            class="first-section__vector"
             src="./assets/images/phone/circulos-about-movil.svg"
             alt="circulos"
           />
         </picture>
       </div>
-    </header>
 
-    <main class="main"></main>
+      <section class="specialities">
+        <h2 class="title">What I do?</h2>
+        <div class="specialities__item">
+          <div class="specialities__picture">
+            <img
+              src="./assets/images/phone/front-end-movil.svg"
+              alt="front-end"
+            />
+          </div>
+
+          <div class="specialities__info">
+            <h3 class="subtitle">Front-end</h3>
+            <p class="text">
+              Translate the visual design of a website into HTML, CSS and
+              JavaScript code.
+            </p>
+          </div>
+        </div>
+
+        <div class="specialities__item">
+          <div class="specialities__picture">
+            <img src="./assets/images/phone/ux-ui-movil.svg" alt="ux/ui" />
+          </div>
+          <div class="specialities__info">
+            <h3 class="subtitle">UX/UI Design</h3>
+            <p class="text">
+              Define the interaction model in an interface using research,
+              design and technology.
+            </p>
+          </div>
+        </div>
+
+        <div class="specialities__item">
+          <div class="specialities__picture">
+            <img
+              src="./assets/images/phone/graphic-designer-movil.svg"
+              alt="graphic-designer"
+            />
+          </div>
+          <div class="specialities__info">
+            <h3 class="subtitle">Graphic Designer</h3>
+            <p class="text">
+              Convey a message or an idea through visual communication.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <h2 class="title">Skills</h2>
+        <div class="skills__icons">
+          <div class="skills__icon">
+            <img src="./assets/images/phone/icono-git-movil.svg" alt="git" />
+            <p class="text">Git</p>
+          </div>
+          <div class="skills__icon">
+            <img src="./assets/images/phone/icono-css-movil.svg" alt="css" />
+            <p class="text">CSS 3</p>
+          </div>
+          <div class="skills__icon">
+            <img src="./assets/images/phone/icono-html-movil.svg" alt="html" />
+            <p class="text">HTML 5</p>
+          </div>
+          <div class="skills__icon">
+            <img
+              src="./assets/images/phone/icono-javascript-movil.svg"
+              alt="javascript"
+            />
+            <p class="text">JavaScript</p>
+          </div>
+          <div class="skills__icon">
+            <img
+              src="./assets/images/phone/icono-visual-studio-movil.svg"
+              alt="visual studio"
+            />
+            <p class="text">Visual Studio</p>
+          </div>
+          <div class="skills__icon">
+            <img
+              src="./assets/images/phone/icono-github-movil.svg"
+              alt="git hub"
+            />
+            <p class="text">GitHub</p>
+          </div>
+          <div class="skills__icon">
+            <img
+              src="./assets/images/phone/icono-figma-movil.svg"
+              alt="figma"
+            />
+            <p class="text">Figma</p>
+          </div>
+          <div class="skills__icon">
+            <img
+              src="./assets/images/phone/icono-adobe-xd-movil.svg"
+              alt="adobe xd"
+            />
+            <p class="text">Adobe XD</p>
+          </div>
+          <div class="skills__icon">
+            <img
+              src="./assets/images/phone/icono-photoshop-movil.svg"
+              alt="photoshop"
+            />
+            <p class="text">Adobe Photoshop</p>
+          </div>
+          <div class="skills__icon">
+            <img
+              src="./assets/images/phone/icono-illustrator-movil.svg"
+              alt="illustrator"
+            />
+            <p class="text">Adobe Illustrator</p>
+          </div>
+          <div class="skills__icon">
+            <img
+              src="./assets/images/phone/icono-indesign-movil.svg"
+              alt="indesign"
+            />
+            <p class="text">Adobe InDesign</p>
+          </div>
+          <div class="skills__icon">
+            <img
+              src="./assets/images/phone/icono-after-effects-movil.svg"
+              alt="after effects"
+            />
+            <p class="text">After Effects</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="academic">
+        <h2 class="title">Academic trajectory</h2>
+        <div class="academic__content">
+          <img src="./assets/images/phone/academic-movil.svg" alt="vector" />
+          <div class="academic__text">
+            <h3 class="subtitle">2023 - Actually</h3>
+            <p class="text text--medium">
+              Digital & Soft skills course at UNIR - The Internet University
+              (Online).
+            </p>
+            <h3 class="subtitle">2023 - Actually</h3>
+            <p class="text text--medium">
+              Professional master’s degree in front-end web design at Trazos
+              school .(Madrid, Madrid).
+            </p>
+            <h3 class="subtitle">2022 - 2023</h3>
+            <p class="text text--medium">
+              Professional master's degree in UX/UI at the Trazos School
+              (Madrid, Madrid).
+            </p>
+            <p class="text">
+              Agile methodologies, MVP, Scope Canvas, Value Proposition Canvas,
+              Lean UX, Benchmark, Card Sorting, Affinity Diagram, User Persona,
+              User Journey, Moscow, Site map, Navigation flow, Low-fi, Mid-fi,
+              Visual benchmark, UI Kit, brand attributes, moodboard, High-Fi,
+              prototyping, interactions, etc.
+            </p>
+            <h3 class="subtitle">2018 - 2022</h3>
+            <p class="text text--medium">
+              Degree in Graphic Design at the School of Art and Higher Design of
+              Valencia (Valencia, Valencia).
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience">
+        <h2 class="title">Professional experience</h2>
+        <div class="experience__content">
+          <img src="./assets/images/phone/experience-movil.svg" alt="vector" />
+          <div class="experience__text">
+            <h3 class="subtitle">February 2023 - Actually</h3>
+            <p class="text text--medium">
+              Telefónica B2B. Commercial approach and New Business
+            </p>
+            <ul class="experience__jobs">
+              <li class="experience__job text">
+                - Design and development of instructive infographics for the
+                Telefónica Sales Force.
+              </li>
+              <li class="experience__job text">
+                - Preparation of Executive Business Presentations with high
+                visual impact.
+              </li>
+              <li class="experience__job text">
+                - Development of creatives to dynamize the project in social
+                networks.
+              </li>
+              <li class="experience__job text">
+                - Design and elaboration of Newsletters.
+              </li>
+              <li class="experience__job text">
+                - Participation in the in-house design process of courses and
+                other training content.
+              </li>
+              <li class="experience__job text">
+                - Support in the preparation of professional documentation for
+                corporate reporting.
+              </li>
+            </ul>
+
+            <h3 class="subtitle">May 2022 - September 2022</h3>
+            <p class="text text--medium">
+              Copy shop Andrés (Canals, Valencia).
+            </p>
+            <p class="text">Graphic Designer.</p>
+            <h3 class="subtitle">November 2021 - February 2022</h3>
+            <p class="text text--medium">
+              Web and Marketing Unit at the Univeristy of Valencia. (Burjassot,
+              Valencia).
+            </p>
+            <p class="text">Graphic Designer.</p>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer class="footer">
       <h2 class="footer__subtitle">Let's work together</h2>
