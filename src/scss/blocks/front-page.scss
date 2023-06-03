@@ -1,0 +1,10 @@
+.front-page{
+    padding: 0 27px;
+
+    &__image{
+        border-top-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+        height: 220px;
+        width: 100%;
+    }
+}
